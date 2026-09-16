@@ -98,6 +98,129 @@ Container = Running instance of the image
 
 ---
 
+## Markdown Document Creation
+
+### Create a Markdown File
+
+Create an empty file:
+
+```bash
+touch notes.md
+```
+
+Create and open in VS Code:
+
+```bash
+code notes.md
+```
+
+Create and immediately edit:
+
+```bash
+nano notes.md
+```
+
+---
+
+### Common Markdown Files
+
+| File | Purpose |
+|--------|---------|
+| `README.md` | Project documentation |
+| `handbook.md` | Personal knowledge base |
+| `cheatsheets.md` | Quick reference material |
+| `CHANGELOG.md` | Release history |
+| `CONTRIBUTING.md` | Contribution guidelines |
+| `NOTES.md` | General notes |
+
+---
+
+### Headings
+
+```markdown
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+```
+
+Result:
+
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+---
+
+### Bold and Italics
+
+```markdown
+**Bold**
+
+*Italic*
+
+***Bold Italic***
+```
+
+---
+
+### Lists
+
+Unordered list:
+
+```markdown
+- Item 1
+- Item 2
+- Item 3
+```
+
+Ordered list:
+
+```markdown
+1. First
+2. Second
+3. Third
+```
+
+---
+
+### Task Lists
+
+```markdown
+- [x] Git
+- [x] Python
+- [ ] Docker Compose
+- [ ] CUDA
+```
+
+---
+
+### Code Blocks
+
+Inline code:
+
+```markdown
+Use `git status`
+```
+
+Multi-line code:
+
+````markdown
+```bash
+git status
+git add .
+git commit -m "update"
+```
+
+---
+
 ## Edge AI Developer Stack
 
 ```text

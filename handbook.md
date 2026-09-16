@@ -10,6 +10,7 @@ Goals:
 - Become proficient with Linux and WSL
 - Master Git and GitHub
 - Build Python and AI applications
+- Create good markdown files
 - Learn Docker and containers
 - Develop Edge AI and TinyML systems
 - Create reusable reference material
@@ -209,7 +210,130 @@ numpy==2.3.3
 pandas==2.3.2
 matplotlib==3.10.6
 ```
+---
 
+## Markdown Document Creation
+
+Markdown is the standard documentation format used by:
+
+- GitHub
+- README files
+- Project documentation
+- Developer handbooks
+- AI project notes
+- GitHub Wikis
+
+### Create a Markdown File
+
+Create an empty file:
+
+```bash
+touch notes.md
+```
+
+Create and open in VS Code:
+
+```bash
+code notes.md
+```
+
+Create and edit with nano:
+
+```bash
+nano notes.md
+```
+
+---
+
+### Common Markdown Files
+
+| File | Purpose |
+|--------|---------|
+| `README.md` | Project documentation |
+| `handbook.md` | Personal knowledge base |
+| `cheatsheets.md` | Quick reference material |
+| `CHANGELOG.md` | Release history |
+| `CONTRIBUTING.md` | Contribution guidelines |
+| `NOTES.md` | General notes |
+
+---
+
+### Headings
+
+```markdown
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+```
+
+---
+
+### Bold and Italics
+
+```markdown
+**Bold**
+
+*Italic*
+
+***Bold Italic***
+```
+
+---
+
+### Lists
+
+Unordered list:
+
+```markdown
+- Item 1
+- Item 2
+- Item 3
+```
+
+Ordered list:
+
+```markdown
+1. First
+2. Second
+3. Third
+```
+
+---
+
+### Task Lists
+
+Useful for learning plans:
+
+```markdown
+- [x] Git
+- [x] Python
+- [ ] Docker Compose
+- [ ] CUDA
+- [ ] Kubernetes
+```
+
+---
+
+### Code Blocks
+
+Inline code:
+
+```markdown
+Use `git status`
+```
+
+Multi-line code:
+
+````markdown
+```bash
+git status
+git add .
+git commit -m "update"
+```
 ---
 
 # Part 4 - Docker
