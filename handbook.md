@@ -182,12 +182,12 @@ Restore dependencies:
 pip install -r requirements.txt
 ```
 
-## Notes
+### Notes
 
 - Every project gets its own `.venv`
 - Never commit `.venv`
 
----
+
 
 ## Wheel (.whl)
 
@@ -199,7 +199,7 @@ Install:
 pip install package.whl
 ```
 ### Benefits:
-
+ 
 - Faster installs
 - No compilation required
 - Standard Python packaging format
