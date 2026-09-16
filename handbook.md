@@ -189,6 +189,24 @@ pip install -r requirements.txt
 
 ---
 
+## Wheel (.whl)
+
+A wheel is a pre-built Python package archive.
+
+Install:
+
+```bash
+pip install package.whl
+```
+### Benefits:
+
+- Faster installs
+- No compilation required
+- Standard Python packaging format
+
+### Caution
+- common libraries may not have a wheel created yet in the newest versions of python.  If so go back to previous stable version of python.
+
 ## requirements.txt
 
 Generate:
